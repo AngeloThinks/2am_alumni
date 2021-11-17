@@ -8,7 +8,7 @@
 }
 
 .navbar {
-  background: #f7f7f7;
+  background: white;
   height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 768px) {
   .navbar__bars {
-    color: #f7f7f7;
+    color: #222121;
     opacity: 1;
     position: absolute;
     top: 22px;
@@ -78,7 +78,7 @@
   border-radius: 4px;
   background: #00cc66;
   margin-left: 16px;
-  color: #f7f7f7;
+  color: white;
 }
 
 .navbar__menu #button:hover {
@@ -96,7 +96,7 @@
 }
 
 .hero {
-  background-color: #f7f7f7;
+  background-color: white;
 }
 
 .hero__container {
@@ -149,7 +149,7 @@
 
 @media screen and (max-width: 280px) {
   .hero__container--left h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -160,7 +160,7 @@
 
 @media screen and (max-width: 280px) {
   .hero__container--left h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -183,7 +183,7 @@
   padding: 14px 32px;
   border: none;
   border-radius: 4px;
-  color: #f7f7f7;
+  color: white;
   margin-top: 2rem;
   cursor: pointer;
   position: relative;
@@ -195,7 +195,7 @@
 .hero__container--btn a {
   position: relative;
   z-index: 2;
-  color: #f7f7f7;
+  color: white;
   text-decoration: none;
 }
 
@@ -223,5 +223,34 @@
 .hero__container--img {
   height: 100%;
   width: 100%;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 15.5px;
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
